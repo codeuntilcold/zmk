@@ -94,9 +94,9 @@
 
     Raise {
       bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans           &trans       &trans    &trans      &trans         &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp GRAVE
-&trans  &trans           &trans       &trans    &trans      &trans         &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &kp TILDE
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp LPAR          &kp RPAR           &kp ASTRK      &trans
+&trans  &trans           &trans       &trans    &trans      &trans         &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp GRAVE
+&trans  &trans           &trans       &trans    &trans      &trans         &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE       &kp TILDE
                                       &trans    &trans      &trans         &trans          &trans         &trans
       >;
 
@@ -105,10 +105,10 @@
 
     Lower {
       bindings = <
-&trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans    &kp CARET       &kp AMPS        &kp ASTERISK  &kp LPAR         &kp RPAR  &trans
-&trans  &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans    &kp GRAVE
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &kp UNDER       &kp PLUS        &kp LBRC      &kp RBRC         &kp PIPE  &kp TILDE
-                                    &bootloader   &trans        &trans    &trans          &mo 3           &bootloader
+&kp LC(TAB)  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans    &kp CARET       &kp AMPS        &kp LPAR      &kp RPAR         &kp ASTRK  &trans
+&trans       &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp COLON  &kp GRAVE
+&trans       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &kp UNDER       &kp PLUS        &kp LBRC      &kp RBRC         &kp PIPE   &kp TILDE
+                                         &bootloader   &trans        &trans    &trans          &mo 3           &bootloader
       >;
 
       label = "Lower";
