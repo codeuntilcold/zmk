@@ -94,10 +94,10 @@
 
     Raise {
       bindings = <
-&trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN    &kp EXCLAMATION  &kp AMPERSAND  &kp LPAR          &kp RPAR           &kp ASTRK      &trans
-&trans  &kp CARET     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH       &kp MINUS        &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &kp GRAVE
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR     &kp UNDERSCORE   &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &kp TILDE
-                                    &trans        &trans        &trans         &trans           &trans         &trans
+&trans     &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN    &kp EXCLAMATION  &kp AMPERSAND  &kp LPAR          &kp RPAR           &kp ASTRK      &trans
+&trans     &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH       &kp MINUS        &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &kp GRAVE
+&kp CARET  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR     &kp UNDERSCORE   &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &kp TILDE
+                                       &trans        &trans        &trans         &trans           &trans         &trans
       >;
 
       label = "Raise";
@@ -105,10 +105,10 @@
 
     Lower {
       bindings = <
-&kp LC(TAB)  &trans          &kp UP_ARROW    &trans           &kp EXCLAMATION  &kp LEFT_PARENTHESIS    &kp EXCLAMATION  &kp AMPS        &kp LPAR      &kp RPAR         &kp ASTRK     &trans
-&trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PIPE         &kp AMPS                &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp COLON     &kp GRAVE
-&trans       &trans          &trans          &trans           &kp COLON        &kp QUESTION            &kp UNDER        &kp PLUS        &kp LBRC      &kp RBRC         &kp QUESTION  &kp TILDE
-                                             &bootloader      &trans           &trans                  &trans           &mo 3           &bootloader
+&kp LC(TAB)  &trans          &kp UP_ARROW    &trans           &kp EXCLAMATION  &kp LEFT_PARENTHESIS    &trans          &trans          &trans        &trans           &trans  &trans
+&trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PIPE         &kp AMPS                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &kp GRAVE
+&trans       &trans          &trans          &trans           &kp COLON        &kp QUESTION            &trans          &trans          &trans        &trans           &trans  &kp TILDE
+                                             &bootloader      &trans           &trans                  &trans          &mo 3           &bootloader
       >;
 
       label = "Lower";
