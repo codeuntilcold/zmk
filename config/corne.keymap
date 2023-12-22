@@ -59,7 +59,7 @@
 
     Raise {
       bindings = <
-&trans     &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN    &kp EXCLAMATION  &kp AMPERSAND  &kp LPAR          &kp RPAR           &kp ASTRK      &trans
+&trans     &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN    &kp EXCLAMATION  &kp AMPERSAND  &kp LPAR          &kp RPAR           &kp ASTRK      &kp PERCENT
 &trans     &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH       &kp MINUS        &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &kp GRAVE
 &kp CARET  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR     &kp UNDERSCORE   &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &kp TILDE
                                        &trans        &trans        &trans         &trans           &trans         &trans
