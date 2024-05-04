@@ -59,10 +59,10 @@
 
     Raise {
       bindings = <
-&trans     &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN    &kp EXCLAMATION  &kp AMPERSAND  &kp LPAR          &kp RPAR           &kp ASTRK      &kp PERCENT
-&trans     &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH       &kp MINUS        &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &kp GRAVE
-&kp CARET  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR     &kp UNDERSCORE   &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &kp TILDE
-                                       &trans        &trans        &trans         &trans           &trans         &trans
+&kp CARET   &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN    &kp EXCLAMATION  &kp AMPERSAND  &kp LPAR          &kp RPAR           &kp ASTRK      &kp PERCENT
+&trans      &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH       &kp MINUS        &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &kp GRAVE
+&kp LSHIFT  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR     &kp UNDERSCORE   &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &kp TILDE
+                                        &trans        &trans        &trans         &trans           &trans         &trans
       >;
 
       label = "Raise";
@@ -70,10 +70,10 @@
 
     Lower {
       bindings = <
-&kp LC(TAB)  &trans          &kp UP_ARROW    &trans           &kp EXCLAMATION  &kp LEFT_PARENTHESIS    &trans          &trans          &trans        &trans           &trans  &trans
-&trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PIPE         &kp AMPS                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &kp GRAVE
-&trans       &trans          &trans          &trans           &kp COLON        &kp QUESTION            &trans          &trans          &trans        &trans           &trans  &kp TILDE
-                                             &bootloader      &trans           &trans                  &trans          &mo 3           &bootloader
+&trans  &kp F1             &kp F2        &kp F3       &kp F4    &kp F5        &kp F6          &kp F7          &kp F8        &kp F9           &kp F10          &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PREV   &kp C_PP  &kp C_NEXT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans           &trans
+&trans  &kp C_BRI_DN       &kp C_BRI_UP  &trans       &trans    &trans        &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN  &trans
+                                         &bootloader  &trans    &trans        &trans          &mo 3           &bootloader
       >;
 
       label = "Lower";
@@ -81,10 +81,10 @@
 
     Adjust {
       bindings = <
-&trans  &trans  &trans        &trans  &trans  &bt BT_SEL 0    &bt BT_SEL 3  &kp K_MUTE            &kp C_VOL_DN          &kp C_VOL_UP  &ext_power EP_TOG  &trans
-&trans  &trans  &out OUT_TOG  &trans  &trans  &bt BT_SEL 1    &bt BT_SEL 4  &kp C_PREV            &kp C_PP              &kp C_NEXT    &trans             &trans
-&trans  &trans  &soft_off     &trans  &trans  &bt BT_SEL 2    &bt BT_CLR    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans        &trans             &trans
-                              &trans  &trans  &trans          &trans        &trans                &trans
+&trans  &trans  &trans  &trans  &bt BT_CLR    &bt BT_SEL 0    &trans  &trans  &trans  &soft_off  &ext_power EP_OFF  &ext_power EP_ON
+&trans  &trans  &trans  &trans  &out OUT_TOG  &bt BT_SEL 1    &trans  &trans  &trans  &trans     &trans             &trans
+&trans  &trans  &trans  &trans  &trans        &bt BT_SEL 2    &trans  &trans  &trans  &trans     &trans             &trans
+                        &trans  &trans        &trans          &trans  &trans  &trans
       >;
 
       label = "Adjust";
