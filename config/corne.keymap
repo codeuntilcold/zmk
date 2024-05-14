@@ -78,6 +78,11 @@
       bindings = <&kp AMPERSAND>;
       key-positions = <1 2>;
     };
+
+    delete {
+      bindings = <&kp DELETE>;
+      key-positions = <10 11>;
+    };
   };
 
   macros {
