@@ -175,21 +175,31 @@ layers:
 combos:
 - p: [18, 19]
   k: '-'
+  l: [Base]
 - p: [31, 30]
   k: '='
+  l: [Base]
 - p: [25, 26]
   k: '!'
+  l: [Base]
 - p: [14, 13]
   k: $
+  l: [Base]
 - p: [26, 27]
   k: '@'
+  l: [Base]
 - p: [14, 15]
   k: '%'
+  l: [Base]
 - p: [15, 16]
   k: ^
+  l: [Base]
 - p: [2, 3]
   k: '*'
+  l: [Base]
 - p: [27, 28]
   k: '#'
+  l: [Base]
 - p: [10, 11]
   k: DELETE
+  l: [Base]
