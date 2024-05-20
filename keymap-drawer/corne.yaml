@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: '`', h: RIGHT SHIFT}
+  - {t: '`', h: RSHIFT}
   - LGUI
   - SPACE
   - Lower
@@ -46,9 +46,9 @@ layers:
   Raise:
   - {t: ▽, type: trans}
   - ','
-  - '7'
-  - '8'
-  - '9'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -68,11 +68,11 @@ layers:
   - ']'
   - '|'
   - {t: ▽, type: trans}
-  - LSHIFT
+  - {t: ▽, type: trans}
   - '0'
-  - '1'
-  - '2'
-  - '3'
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - _
   - +
@@ -173,20 +173,23 @@ layers:
   - {type: held}
   - '&bootloader'
 combos:
-- p: [18, 19]
+- p: [19, 20]
   k: '-'
   l: [Base]
-- p: [31, 30]
+- p: [31, 32]
   k: '='
   l: [Base]
-- p: [25, 26]
+- p: [0, 2]
   k: '!'
   l: [Base]
-- p: [14, 13]
-  k: $
-  l: [Base]
-- p: [26, 27]
+- p: [2, 3]
   k: '@'
+  l: [Base]
+- p: [3, 4]
+  k: '#'
+  l: [Base]
+- p: [13, 14]
+  k: $
   l: [Base]
 - p: [14, 15]
   k: '%'
@@ -194,11 +197,8 @@ combos:
 - p: [15, 16]
   k: ^
   l: [Base]
-- p: [2, 3]
+- p: [26, 27]
   k: '*'
-  l: [Base]
-- p: [27, 28]
-  k: '#'
   l: [Base]
 - p: [10, 11]
   k: DELETE
