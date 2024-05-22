@@ -57,12 +57,6 @@
       layers = <0>;
     };
 
-    hash {
-      bindings = <&kp HASH>;
-      key-positions = <3 4>;
-      layers = <0>;
-    };
-
     end {
       bindings = <&kp DOLLAR>;
       key-positions = <13 14>;
@@ -125,10 +119,10 @@
 
     Raise {
       bindings = <
-&trans      &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans          &trans     &kp LPAR          &kp RPAR           &trans         &trans
-&trans      &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &trans
-&trans      &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans    &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &trans
-                                        &trans        &trans        &mo 3     &trans          &trans     &trans
+&trans  &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans          &trans     &kp LPAR          &kp RPAR           &trans         &trans
+&trans  &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &trans
+&trans  &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans    &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH  &trans
+                                    &trans        &trans        &mo 3     &trans          &trans     &trans
       >;
 
       label = "Raise";
@@ -147,10 +141,10 @@
 
     Adjust {
       bindings = <
-&trans  &trans  &trans  &trans       &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 3  &trans  &trans       &soft_off  &ext_power EP_OFF  &ext_power EP_ON
-&trans  &trans  &trans  &trans       &out OUT_TOG  &bt BT_SEL 1    &bt BT_SEL 4  &trans  &trans       &trans     &trans             &trans
-&trans  &trans  &trans  &trans       &trans        &bt BT_SEL 2    &trans        &trans  &trans       &trans     &trans             &trans
-                        &bootloader  &trans        &trans          &trans        &trans  &bootloader
+&trans  &trans  &soft_off  &trans       &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 3  &trans  &trans       &soft_off  &ext_power EP_OFF  &ext_power EP_ON
+&trans  &trans  &trans     &trans       &out OUT_TOG  &bt BT_SEL 1    &bt BT_SEL 4  &trans  &trans       &trans     &trans             &trans
+&trans  &trans  &trans     &trans       &trans        &bt BT_SEL 2    &trans        &trans  &trans       &trans     &trans             &trans
+                           &bootloader  &trans        &trans          &trans        &trans  &bootloader
       >;
 
       label = "Adjust";

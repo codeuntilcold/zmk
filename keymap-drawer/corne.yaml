@@ -132,7 +132,7 @@ layers:
   Adjust:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&soft_off'
   - {t: ▽, type: trans}
   - BT CLR
   - {t: BT, h: '0'}
@@ -184,9 +184,6 @@ combos:
   l: [Base]
 - p: [2, 3]
   k: '@'
-  l: [Base]
-- p: [3, 4]
-  k: '#'
   l: [Base]
 - p: [13, 14]
   k: $
