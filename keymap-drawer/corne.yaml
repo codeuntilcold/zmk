@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - LSHFT
+  - {t: CAPS, h: LSHIFT}
   - Z
   - X
   - C
@@ -39,10 +39,10 @@ layers:
   - {t: '`', h: RSHIFT}
   - LGUI
   - SPACE
-  - Lower
+  - {t: +, h: Lower}
   - ENTER
-  - Raise
-  - LALT
+  - {t: _, h: Raise}
+  - RALT
   Raise:
   - {t: ▽, type: trans}
   - ','
@@ -179,7 +179,7 @@ combos:
 - p: [31, 32]
   k: '='
   l: [Base]
-- p: [0, 2]
+- p: [2, 14]
   k: '!'
   l: [Base]
 - p: [2, 3]
@@ -200,3 +200,13 @@ combos:
 - p: [10, 11]
   k: DELETE
   l: [Base]
+- p: [26, 14]
+  k: '&'
+- p: [8, 20]
+  k: (
+- p: [9, 21]
+  k: )
+- p: [20, 32]
+  k: '['
+- p: [21, 33]
+  k: ']'
