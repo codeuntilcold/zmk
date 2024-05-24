@@ -202,11 +202,16 @@ combos:
   l: [Base]
 - p: [26, 14]
   k: '&'
+  l: [Base]
 - p: [8, 20]
   k: (
+  l: [Base]
 - p: [9, 21]
   k: )
+  l: [Base]
 - p: [20, 32]
   k: '['
+  l: [Base]
 - p: [21, 33]
   k: ']'
+  l: [Base]
