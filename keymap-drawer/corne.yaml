@@ -52,8 +52,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (
-  - )
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,10 +62,10 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,8 +74,8 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - _
-  - +
+  - ''
+  - ''
   - '{'
   - '}'
   - \
@@ -132,16 +132,16 @@ layers:
   Adjust:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&soft_off'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '3'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&soft_off'
-  - EP OFF
-  - EP ON
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
