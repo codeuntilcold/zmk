@@ -82,6 +82,10 @@ text.shifted {
     dominant-baseline: hanging;
 }
 
+text.layer-activator {
+    text-decoration: underline;
+}
+
 /* styling for hold/shifted label text in combo box */
 text.combo.hold, text.combo.shifted {
     font-size: 8px;
@@ -113,7 +117,7 @@ path.combo {
 /* End Tabler Icons Cleanup */
 </style>
 <g transform="translate(30, 0)" class="layer-Base">
-<text x="0" y="28" class="label">Base:</text>
+<text x="0" y="28" class="label" id="Base">Base:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -273,8 +277,9 @@ path.combo {
 <g transform="translate(342, 222) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">+</text>
-<text x="0" y="38" class="key hold">Lower</text>
-</g>
+<a href="#Lower">
+<text x="0" y="38" class="key hold layer-activator">Lower</text>
+</a></g>
 <g transform="translate(498, 222) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">ENTER</text>
@@ -282,8 +287,9 @@ path.combo {
 <g transform="translate(559, 212) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">_</text>
-<text x="0" y="24" class="key hold">Raise</text>
-</g>
+<a href="#Raise">
+<text x="0" y="24" class="key hold layer-activator">Raise</text>
+</a></g>
 <g transform="translate(617, 204)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RALT</text>
@@ -344,10 +350,26 @@ path.combo {
 <rect rx="6" ry="6" x="686" y="106" width="28" height="26" class="combo"/>
 <text x="700" y="119" class="combo tap">]</text>
 </g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="574" y="50" width="28" height="26" class="combo"/>
+<text x="588" y="63" class="combo tap">{</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="574" y="106" width="28" height="26" class="combo"/>
+<text x="588" y="119" class="combo tap">}</text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="742" y="64" width="28" height="26" class="combo"/>
+<text x="756" y="77" class="combo tap">|</text>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="742" y="120" width="28" height="26" class="combo"/>
+<text x="756" y="133" class="combo tap">\</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 328)" class="layer-Raise">
-<text x="0" y="28" class="label">Raise:</text>
+<text x="0" y="28" class="label" id="Raise">Raise:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -503,8 +525,9 @@ path.combo {
 </g>
 <g transform="translate(342, 222) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">Adjust</text>
-</g>
+<a href="#Adjust">
+<text x="0" y="0" class="key tap layer-activator">Adjust</text>
+</a></g>
 <g transform="translate(498, 222) rotate(-30.0)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
@@ -519,7 +542,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 657)" class="layer-Lower">
-<text x="0" y="28" class="label">Lower:</text>
+<text x="0" y="28" class="label" id="Lower">Lower:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -702,8 +725,9 @@ path.combo {
 </g>
 <g transform="translate(559, 212) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Adjust</text>
-</g>
+<a href="#Adjust">
+<text x="0" y="0" class="key tap layer-activator">Adjust</text>
+</a></g>
 <g transform="translate(617, 204)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
@@ -711,7 +735,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 985)" class="layer-Adjust">
-<text x="0" y="28" class="label">Adjust:</text>
+<text x="0" y="28" class="label" id="Adjust">Adjust:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

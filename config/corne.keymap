@@ -12,7 +12,6 @@
 
 // dt-formatter: indent = "  "
 // dt-formatter: reindentMultilineIntegerCells = "dedent"
-
 /*               KEY POSITIONS
 
   ╭───────────────────╮ ╭───────────────────╮
@@ -123,6 +122,30 @@
     rbrack {
       bindings = <&kp RBKT>;
       key-positions = <21 33>;
+      layers = <0>;
+    };
+
+    lbrace {
+      bindings = <&kp LBRC>;
+      key-positions = <7 19>;
+      layers = <0>;
+    };
+
+    rbrace {
+      bindings = <&kp RBRC>;
+      key-positions = <19 31>;
+      layers = <0>;
+    };
+
+    pipe {
+      bindings = <&kp PIPE>;
+      key-positions = <10 22>;
+      layers = <0>;
+    };
+
+    bslash {
+      bindings = <&kp BSLH>;
+      key-positions = <22 34>;
       layers = <0>;
     };
   };
