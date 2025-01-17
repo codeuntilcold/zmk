@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   Base:
   - ESC
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: CAPS, h: LSHIFT}
+  - LSHIFT
   - Z
   - X
   - C
@@ -39,9 +39,9 @@ layers:
   - {t: '`', h: RSHIFT}
   - LGUI
   - SPACE
-  - {t: +, h: Lower}
+  - {t: Lower, h: toggle}
   - ENTER
-  - {t: _, h: Raise}
+  - {t: Raise, h: toggle}
   - RALT
   Raise:
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - Adjust
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Lower:
   - {t: ▽, type: trans}
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Adjust
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&bootloader'
 combos:
 - p: [19, 20]
