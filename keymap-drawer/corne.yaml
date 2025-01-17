@@ -39,9 +39,9 @@ layers:
   - {t: '`', h: RSHIFT}
   - LGUI
   - SPACE
-  - {t: Lower, h: toggle}
+  - Lower
   - ENTER
-  - {t: Raise, h: toggle}
+  - Raise
   - RALT
   Raise:
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - Adjust
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Lower:
   - {t: ▽, type: trans}
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - Adjust
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&bootloader'
 combos:
 - p: [19, 20]
